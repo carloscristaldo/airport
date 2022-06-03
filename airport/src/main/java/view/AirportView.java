@@ -71,6 +71,7 @@ public class AirportView {
                         a.setName(name);
                         a.setShortName(shortName);
                         airportImpl.create(a);
+
                         break;
                     case 6:
                         finish = true;
